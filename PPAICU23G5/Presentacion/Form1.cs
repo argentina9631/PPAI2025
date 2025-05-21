@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Presentacion;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -8,13 +9,19 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace PPAICU23G5._3__Capa_de_presentacion
+namespace PPAICU23G5.Presentacion
 {
     public partial class Form1 : Form
     {
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            PantallaRevisionManual pantalla = new PantallaRevisionManual();
+            pantalla.ShowDialog(); // Recomendado si querés que complete el proceso antes de volver
         }
     }
 }

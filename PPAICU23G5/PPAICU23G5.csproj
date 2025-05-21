@@ -35,6 +35,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -46,20 +47,38 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="1%29 Capa de datos\BaseDeDatosArray.cs" />
-    <Compile Include="2%29 Capa logica\GestorRevisionManual.cs" />
-    <Compile Include="3%29 Capa de presentacion\Form1.cs">
+    <Compile Include="Datos\EstadoDAO.cs" />
+    <Compile Include="Datos\EventoSismicoDAO.cs" />
+    <Compile Include="Logica\GeneradorSismograma.cs" />
+    <Compile Include="Logica\GestorRevisionManual.cs" />
+    <Compile Include="Presentacion\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="3%29 Capa de presentacion\Form1.Designer.cs">
+    <Compile Include="Presentacion\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="3%29 Capa de presentacion\PantallaRevisionManual.cs" />
-    <Compile Include="4%29 Capa de entidades\EventoSismico.cs" />
+    <Compile Include="Presentacion\PantallaRevisionManual.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Entidades\Alcance.cs" />
+    <Compile Include="Entidades\CambioEstado.cs" />
+    <Compile Include="Entidades\ClasificacionSismo.cs" />
+    <Compile Include="Entidades\DetalleMuestraSismica.cs" />
+    <Compile Include="Entidades\EstacionSismologica.cs" />
+    <Compile Include="Entidades\Estado.cs" />
+    <Compile Include="Entidades\EventoSismico.cs" />
+    <Compile Include="Entidades\MuestraSismica.cs" />
+    <Compile Include="Entidades\OrigenDeGeneracion.cs" />
+    <Compile Include="Entidades\SerieTemporal.cs" />
+    <Compile Include="Entidades\Sismografo.cs" />
+    <Compile Include="Entidades\TipoDeDato.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="3%29 Capa de presentacion\Form1.resx">
+    <EmbeddedResource Include="Presentacion\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\PantallaRevisionManual.resx">
+      <DependentUpon>PantallaRevisionManual.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
