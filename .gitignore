@@ -1,0 +1,20 @@
+# Archivos y carpetas de Visual Studio a ignorar
+.vs/
+*.user
+*.suo
+*.cache
+*.log
+
+# Compilados
+bin/
+obj/
+
+# Archivos temporales
+*.db.lock
+*.tmp
+
+# Archivos de configuración local
+*.dbmdl
+*.sqlite
+*.ldf
+*.mdf
