@@ -1,12 +1,7 @@
 # PPAI2025
 
-PROGRAMADO HASTA EL PASO
-54 : solicitarSeleccionAccion
+CODIGO COMPLETO PROGRAMADO
 
-PROGRAMAR A PARTIR DE 
- 55 : tomarRechazarEvento
- 56 : tomarRechazarEvento 
- ...
-
- VENTANA DETALLE EVENTO
- Poner boton editar, un lapiz o cualquier cosa que de indicio a que se habilito para la edicion.
+VER:
+1) CLASES DE ANALISIS Y SECUENCIA: USAR OTRA HERRAMIENTA QUE NO SEA STARUML PARA GENERARLO
+2) DISEÑO DEL INTERFAZ: HACE LO QUE PIDE PERO SI QUIEREN MEJORAR EL DISEÑO ADELANTE
